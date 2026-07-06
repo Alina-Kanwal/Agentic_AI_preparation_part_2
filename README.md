@@ -95,8 +95,80 @@ Ek line mein yaad rakho:
 Critique objectively = Bina bias ke facts ke basis par review karo.
 Rubric = Wo criteria ya checklist jis ke basis par AI kisi cheez ko evaluate karta hai.
 
+//////////////////////////////////////////////////////
+# Concept 2: Pretrained Knowledge
 
+## Concept ka Matlab
 
+AI ne duniya ko dekh kar ya experience karke nahi seekha. Isne internet par mojood text (jaise books, Wikipedia, news articles, research papers, blogs, Reddit aur Quora) ko padh kar knowledge hasil ki hai. 
 
+## Important Points
 
+* AI ka knowledge reading par based hai, personal experience par nahi. 
+* Jis topic par internet par zyada information ho, AI uska jawab zyada reliably de sakta hai. 
+* Jis topic par internet par kam information ho, AI ka answer kam reliable ho sakta hai. 
+* AI private information, knowledge cutoff ke baad ki information aur jo kabhi public internet par publish hi na hui ho, usay nahi jaanta. 
+* Typos se AI aam tor par confuse nahi hota. 
+* AI internet ki galat ya outdated information bhi seekh sakta hai, isliye important information ko primary source se verify karna chahiye. 
 
+## Example ki Explanation
+
+Document mein ek example diya gaya hai jahan AI se grandmother ke village ke ek regional folk game ke rules puche gaye. AI ne confidently rules bataye, lekin grandmother ne bataya ke woh zyada tar ghalat thay. Wajah ye thi ke us game ke baare mein internet par bohot kam information thi, isliye AI ne milte-julte games ki information ko mila kar answer diya. 
+
+## Summary
+
+AI internet par available text se seekhta hai. Common topics par zyada reliable hota hai, lekin rare, private aur recent information ke liye uske answers ko verify karna zaroori hai. 
+
+**Ab se isi format mein saare concepts dunga — plain text, koi copy box nahi.**
+
+/////////////////////////////////////////
+# Concept 3: The 3 Retrieval Modes
+
+## Concept ka Matlab
+
+Jab tum AI se koi question pochte ho, modern AI tools 3 tareeqon mein se kisi ek tareeqe se answer dete hain:
+
+1. **Pretrained Knowledge**
+2. **Web Search**
+3. **Deep Research**
+
+Har mode ka apna use case, strength aur limitation hoti hai. 
+
+---
+
+## Important Points
+
+* **Pretrained Mode:** Sab se fast hota hai. Common facts aur definitions ke liye best hai, lekin recent ya local information ke liye weak hai. 
+
+* **Web Search:** AI live web pages search karta hai. Current news, recent regulations aur latest information ke liye useful hai.
+
+* **Deep Research:** AI kai sources par research karke detailed report banata hai. Ye multi-dimensional aur in-depth topics ke liye use hota hai, lekin zyada time leta hai. 
+
+* AI aksar khud decide karta hai ke kaunsa mode use karna hai, lekin **tumhare prompt ki wording** us decision ko steer kar sakti hai.
+
+Yani tum apne prompt ke words se AI ko hint dete ho ke kaunsa retrieval mode use karna chahiye.
+
+Document ke examples:
+
+"Latest", "Current", "Today", "Recent" → AI ko Web Search ki taraf guide karte hain.
+"Research", "Compare", "Analyze in depth", "Comprehensive report" → AI ko Deep Research ki taraf guide karte hain.
+
+* Agar web search use ho, to AI kabhi kabhi purane ya inaccurate sources bhi use kar sakta hai. Document recommend karta hai ke source types specify karo aur zarurat ho to source ki exact quote bhi mango. 
+
+---
+
+## Example ki Explanation
+
+Document mein 3 examples diye gaye hain:
+
+* **Pretrained:** "Why do cats stare at walls?" — kyun ke ye common knowledge hai. 
+
+* **Web Search:** Latest news ya recent regulation pocho to AI web search use karke current information la sakta hai.
+
+* **Deep Research:** Local water quality ya permits jaisi detailed research ke liye AI kai sources check karke structured report tayar karta hai. 
+
+---
+
+## Summary
+
+AI ke paas 3 retrieval modes hain: **Pretrained, Web Search aur Deep Research.** Kis mode ka use hoga, ye question ki nature aur prompt ki wording par depend karta hai. Har mode ko uske sahi use case ke liye istemal karna chahiye.
